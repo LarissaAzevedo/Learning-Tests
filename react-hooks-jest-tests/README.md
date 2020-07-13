@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Quick Start: React Testing Library Course Files
 
-## Available Scripts
+## Video Lesson Outline:
 
-In the project directory, you can run:
+[# 1 - Application Overview](https://youtu.be/-rhKK4Pw8nw)
 
-### `yarn start`
+[# 2 Verify React Testing Library is added to an Existing CRA v3 3](https://youtu.be/Sx4tRl7JKLM)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[# 3 Use the debug method to see the HTML output of a component](https://youtu.be/DQ4dBjOUZcM)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[# 4 Write tests for the AddTodo Component](https://youtu.be/q4fkZ56nqyI)
 
-### `yarn test`
+[# 5 Add more readable assertions with jest dom](https://youtu.be/jBbBCQ_nj5w)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[# 6 Simulate form interactions like an end-user with user-event](https://youtu.be/mczrClg9_vM)
 
-### `yarn build`
+[# 7 Verify a component renders the passed in data](https://youtu.be/fbD0Hnel7vk)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[# 8 Test the Todo Component Pt 1](https://youtu.be/UzK5JKUzcs0)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[# 9 Test The Todo Component Pt 2](https://youtu.be/DhHqep8TYVk)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[# 10 Test the integration between RenderTodos and Todo components](https://youtu.be/qD4PM4P1e8k)
 
-### `yarn eject`
+## Installing/Running the app
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+yarn
+yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running Tests
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+yarn test
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Formatting with Prettier
 
-## Learn More
+```bash
+yarn format
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[jest-dom](https://testing-library.com/docs/ecosystem-jest-dom)
 
-### Code Splitting
+[react-testing-library](https://testing-library.com/docs/react-testing-library/intro)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+[user-event](https://testing-library.com/docs/ecosystem-user-event)
 
-### Analyzing the Bundle Size
+[create-react-app](https://create-react-app.dev/docs/getting-started)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+[styled-components](https://styled-components.com/docs/basics)
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[prettier](https://prettier.io/docs/en/install.html)
