@@ -17,13 +17,15 @@ describe('Tests for Todo component', () => {
       { target: { value: task } }
     );
 
-    // buscar o botão
+    // espera que haja na lista a task que foi adicionada
     expect(fieldNode.value).toEqual(task);
 
-    // clicar no botão
+    // buscar o botão
     const btnNode = await waitForElement(
       () => getByTestId('form-btn')
     );
+    
+    // clicar no botão
     fireEvent.click(btnNode);
 
     // buscar a tabela
